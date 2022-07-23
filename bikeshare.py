@@ -25,13 +25,13 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month = ''
     while month not in ['all','january', 'february','march','april','may','june']:
-        month = input('Choose a month: ', ).lower()
+        month = input('Choose a month from january to june: ', ).lower()
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = ''
     while day not in ['all','monday', 'tuesday', 'wednesday','thursday','friday','saturday','sunday']:
-        day = input('Choose a day: ', ).lower()
+        day = input('Choose a day from monday to sunday: ', ).lower()
     
     # print(city, month,day)
 
