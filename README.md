@@ -15,6 +15,11 @@ In this project, I used data provided by Motivate, a bike share system provider 
 * new_york_city.csv
 * washington.csv
 
+### Prerequisites
+Python
+Pandas
+Numpy
+
 ### Credits
 https://stackoverflow.com/questions/63229237/finding-the-most-frequent-combination-in-dataframe
 
