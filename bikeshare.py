@@ -180,6 +180,13 @@ def main():
             print('-'*40)
         
         else:
+            # displaying raw data 
+            start_row = 0
+            check_raw = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+            while check_raw.lower() == 'yes':
+                print(df.iloc[start_row:start_row+5,:])
+                start_row += 5 
+                check_raw = input('\nWould you like to see the next 5 lines of raw data? Enter yes or no.\n')
 
             time_stats(df)
             station_stats(df)
